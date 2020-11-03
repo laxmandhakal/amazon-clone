@@ -15,3 +15,12 @@
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
+
+@media (max-width:645px) {
+    .checkout {
+        font-size: 0.75rem;
+        width: 100vw;
+        flex-direction: column;
+        padding: 0px;
+    }
+}

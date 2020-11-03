@@ -67,3 +67,26 @@
     margin-right: 10px;
     color: white;
 }
+
+@media (max-width:645px) {
+    .header {
+        height: 50px;
+        width: 100vw;
+        font-size: small;
+    }
+    .header__option {
+        display: none !important;
+    }
+    .header__logo {
+        width: 60px;
+    }
+    .header__searchInput {
+        width: 80%;
+    }
+    .header__searchIcon {
+        padding: 5px;
+    }
+    .header__search {
+        border-radius: 5x;
+    }
+}
